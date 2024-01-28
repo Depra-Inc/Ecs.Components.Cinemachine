@@ -1,0 +1,19 @@
+{
+    "name": "Depra.Ecs.Components.Cinemachine",
+    "rootNamespace": "Depra.Ecs.Components.Cinemachine",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Depra.Ecs.dll",
+        "Depra.Ecs.QoL.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
