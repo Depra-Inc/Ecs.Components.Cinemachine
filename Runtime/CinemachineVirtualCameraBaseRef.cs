@@ -6,8 +6,8 @@ using Depra.Ecs.QoL.Components;
 
 namespace Depra.Ecs.Components.Cinemachine
 {
-	public struct CinemachineVirtualCameraRef : IComponent
+	public struct CinemachineVirtualCameraBaseRef : IComponent
 	{
-		public CinemachineVirtualCamera Value;
+		public CinemachineVirtualCameraBase Value;
 	}
 }

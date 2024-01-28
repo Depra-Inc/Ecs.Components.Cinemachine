@@ -11,6 +11,7 @@ namespace Depra.Ecs.Components.Cinemachine
 		{
 			world.AddAspect(this);
 			world.AddPool(new ComponentPool<CinemachineVirtualCameraRef>());
+			world.AddPool(new ComponentPool<CinemachineVirtualCameraBaseRef>());
 		}
 
 		void IComponentAspect.PostInitialize() { }
