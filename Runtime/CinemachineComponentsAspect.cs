@@ -10,6 +10,7 @@ namespace Depra.Ecs.Components.Cinemachine
 			aspects.Add(this);
 			pools.Add(new ComponentPool<CinemachineVirtualCameraRef>());
 			pools.Add(new ComponentPool<CinemachineVirtualCameraBaseRef>());
+			pools.Add(new ComponentPool<CinemachineImpulseSourceRef>()))
 		}
 	}
 }
