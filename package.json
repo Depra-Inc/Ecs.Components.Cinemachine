@@ -1,6 +1,6 @@
 {
 	"name": "com.depra.ecs.components.cinemachine",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"displayName": "Depra.Ecs.Components.Cinemachine",
 	"description": "Components for Unity Cinemachine types.",
 	"unity": "2022.3",
