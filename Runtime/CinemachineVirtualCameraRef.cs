@@ -1,12 +1,13 @@
 ﻿// SPDX-License-Identifier: Apache-2.0
 // © 2024 Nikolay Melnikov <n.melnikov@depra.org>
 
+using System;
 using Cinemachine;
-using Depra.Ecs.QoL.Components;
 
 namespace Depra.Ecs.Components.Cinemachine
 {
-	public struct CinemachineVirtualCameraRef : IComponent
+	[Serializable]
+	public struct CinemachineVirtualCameraRef
 	{
 		public CinemachineVirtualCamera Value;
 	}
